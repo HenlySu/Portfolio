@@ -4,9 +4,7 @@ import Home from "./Home/Home"
 export default function Application() {
    return (
       <>
-         <Container>
-            <Home />
-         </Container>
+         <Home />
       </>
    )
 }
