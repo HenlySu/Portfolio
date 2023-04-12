@@ -1,11 +1,10 @@
-import { Children } from "react"
 import NavigationBar from "./NavBar/NavigationBar"
 
-export default function Layout({props}){
+export default function Layout({children}){
    return(
       <>
          <NavigationBar />
-         {Children}
+         {children}
       </>
    )
 }
