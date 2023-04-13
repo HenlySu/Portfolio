@@ -14,7 +14,6 @@ export default function Home(){
                   <Button>Contact Me</Button>
                </Col>
                <Col md={4}>
-                  {/* <img src='/img/homeImg.svg' /> */}
                   <Image 
                      src='/img/homeImg.svg'
                      alt='Home Image'
