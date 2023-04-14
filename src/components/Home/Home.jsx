@@ -23,6 +23,7 @@ export default function Home(){
 
                </Col>
             </Row>
+            <h1>Motivational quote for the day</h1>
          </Container>
       </>
    )
