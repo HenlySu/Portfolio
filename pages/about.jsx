@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap"
+import { Card, Col, Container, Row } from "react-bootstrap"
 import Image from "next/image";
 
 export default function About(){
@@ -45,6 +45,8 @@ export default function About(){
                <h1>My arsenal</h1>
                <p>The skills, tools and technologies I use to bring applications to life</p>
                <h3>a shit load of icons</h3>
+
+               
 
                <h1>Education</h1>
                <p>Two card elements with school information</p>
