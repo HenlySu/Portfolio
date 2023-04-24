@@ -1,7 +1,7 @@
 import { Col, Row } from "react-bootstrap"
 
 import { CgCPlusPlus } from "react-icons/cg"
-import { IoLogoJavascript } from "react-icons/Io"
+import { IoLogoJavascript, IoLogoVercel } from "react-icons/Io"
 import { DiPython, DiBootstrap, DiJqueryLogo, DiReact, DiHtml5, DiCss3, DiWindows, DiLinux } from "react-icons/Di"
 import { TbSql, TbBrandNextjs } from "react-icons/Tb"
 import { SiMongodb, SiVisualstudio, SiVisualstudiocode, SiSublimetext, SiMacos } from "react-icons/Si"
@@ -88,6 +88,11 @@ export default function Skill(){
             <Col xs={4} md={2} className="icons">
                <BsGithub />
                <p>GitHub</p>
+            </Col>
+
+            <Col xs={4} md={2} className="icons">
+               <IoLogoVercel />
+               <p>Vercel</p>
             </Col>
 
             <h5 className="mt-4">Operating systems</h5>
