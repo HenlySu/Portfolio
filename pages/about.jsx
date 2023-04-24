@@ -1,13 +1,18 @@
-import { Card, Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import Image from "next/image";
+import { CgCPlusPlus } from "react-icons/cg"
+import { IoLogoJavascript } from "react-icons/Io"
+import { DiPython, DiHtml5, DiCss3, DiWindows, DiLinux } from "react-icons/Di"
+import { TbSql } from "react-icons/Tb"
+import { SiMongodb, SiVisualstudio, SiVisualstudiocode, SiSublimetext, SiMacos } from "react-icons/Si"
 
 export default function About(){
    return(
       <>
-         <Container>
+         <Container className='mt-4'>
             <Row>
                <Col md={8}>
-               <h1>About Henly Su</h1>
+               <h1>About me</h1>
 
                <p>
                   Hi, my name is Henly Su and I&#39;m an international student 
@@ -37,15 +42,35 @@ export default function About(){
                   <Image
                      src='/img/about.png'
                      alt='about image'
-                     height={375}
+                     className="img-fluid"
+                     height={500}
                      width={500}
                   />
                </Col>
 
                <h1>My arsenal</h1>
                <p>The skills, tools and technologies I use to bring applications to life</p>
-               <h3>a shit load of icons</h3>
 
+               <p>Languages</p>
+               <IoLogoJavascript />
+               <CgCPlusPlus />
+               <DiPython />
+               <DiHtml5 />
+               <DiCss3 />
+
+               <p>databases</p>
+               <TbSql />
+               <SiMongodb />
+
+               <p>Tools</p>
+               <SiVisualstudio />
+               <SiVisualstudiocode />
+               <SiSublimetext />
+
+               <p>Operating systems</p>
+               <DiWindows />
+               <SiMacos />
+               <DiLinux />
                
 
                <h1>Education</h1>
