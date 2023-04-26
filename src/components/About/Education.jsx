@@ -5,7 +5,6 @@ export default function Education(){
    return(
       <>
          <h1 className="mt-4">Education</h1>
-         <p>Two card elements with school information</p>
          <Row>
             <Col>
                <Image

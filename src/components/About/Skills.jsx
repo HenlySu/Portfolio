@@ -1,10 +1,10 @@
 import { Col, Row } from "react-bootstrap"
 
 import { CgCPlusPlus } from "react-icons/cg"
-import { IoLogoJavascript, IoLogoVercel } from "react-icons/Io"
+import { IoLogoJavascript } from "react-icons/Io"
 import { DiPython, DiBootstrap, DiJqueryLogo, DiReact, DiHtml5, DiCss3, DiWindows, DiLinux } from "react-icons/Di"
 import { TbSql, TbBrandNextjs } from "react-icons/Tb"
-import { SiMongodb, SiVisualstudio, SiVisualstudiocode, SiSublimetext, SiMacos } from "react-icons/Si"
+import { SiMongodb, SiVisualstudio, SiVisualstudiocode, SiMacos, SiVercel } from "react-icons/Si"
 import { BsGit, BsGithub } from "react-icons/Bs"
 
 export default function Skill(){
@@ -14,6 +14,7 @@ export default function Skill(){
          <p>The skills, tools and technologies I use to bring applications to life</p>
 
          {/* Missing express, C */}
+
          <h5>Skills</h5>
          <Row>
             <Col xs={4} md={2} className="icons">
@@ -81,17 +82,19 @@ export default function Skill(){
                <SiVisualstudio />
                <p>Visual Studio</p>
             </Col>
+
             <Col xs={4} md={2} className="icons">
                <SiVisualstudiocode />
                <p>Visual Studio Code</p>
             </Col>
+
             <Col xs={4} md={2} className="icons">
                <BsGithub />
                <p>GitHub</p>
             </Col>
 
             <Col xs={4} md={2} className="icons">
-               <IoLogoVercel />
+               <SiVercel />
                <p>Vercel</p>
             </Col>
 
@@ -100,10 +103,12 @@ export default function Skill(){
                <DiWindows />
                <p>Windows</p>
             </Col>
+
             <Col xs={4} md={2} className="icons">
                <SiMacos />
                <p>MacOS</p>
             </Col>
+
             <Col xs={4} md={2} className="icons">
                <DiLinux />
                <p>Linux</p>
