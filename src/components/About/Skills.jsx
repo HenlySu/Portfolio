@@ -1,11 +1,11 @@
 import { Col, Row } from "react-bootstrap"
 
 import { CgCPlusPlus } from "react-icons/cg"
-import { IoLogoJavascript } from "react-icons/Io"
-import { DiPython, DiBootstrap, DiJqueryLogo, DiReact, DiHtml5, DiCss3, DiWindows, DiLinux } from "react-icons/Di"
-import { TbSql, TbBrandNextjs } from "react-icons/Tb"
-import { SiMongodb, SiVisualstudio, SiVisualstudiocode, SiMacos, SiVercel } from "react-icons/Si"
-import { BsGit, BsGithub } from "react-icons/Bs"
+import { IoLogoJavascript } from "react-icons/io"
+import { DiPython, DiBootstrap, DiJqueryLogo, DiReact, DiHtml5, DiCss3, DiWindows, DiLinux } from "react-icons/di"
+import { TbSql, TbBrandNextjs } from "react-icons/tb"
+import { SiMongodb, SiVisualstudio, SiVisualstudiocode, SiMacos, SiVercel } from "react-icons/si"
+import { BsGit, BsGithub } from "react-icons/bs"
 
 export default function Skill(){
    return (
