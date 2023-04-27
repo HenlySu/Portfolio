@@ -1,0 +1,38 @@
+.hello_world {
+   font-family: 'Sigmar', cursive;
+   color: white;
+   font-size: 3rem;
+}
+
+.name {
+   font-family: 'Sigmar', cursive;
+   color: white;
+   font-size: 2.5rem;
+}
+
+.henly {
+   color: #9900FF;
+}
+
+.home_button{
+   background-color: #560090;
+   border: none;
+
+}
+
+
+
+.aspiration {
+   color: white;
+   font-family: 'Sigmar', cursive;
+   font-size: 1.25rem;
+   margin-right: 6px;
+}
+
+.contain {
+   display: flex;
+   color: #9900FF;
+   font-family: 'Sigmar', cursive;
+   font-size: 1.25rem;
+   margin-top: 3rem;
+}
