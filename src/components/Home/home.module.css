@@ -7,6 +7,7 @@
    font-family: 'Sigmar', cursive;
    color: white;
    font-size: 3rem;
+   margin-top: 3rem;
 }
 
 .name {
@@ -24,6 +25,10 @@
    border: none;
    margin-right: 1.5rem;
    margin-top: 1rem;
+}
+
+.home_button:hover{
+   background-color: #9900FF;
 }
 
 .aspiration {
@@ -45,12 +50,21 @@
 .quoteOfDay{
    color: white;
    font-family: 'Sigmar', cursive;
+   font-size: 1.8rem;
+   text-align: center;
+   margin-top: 3rem;
 }
 
 .quoteContent{
    color: white;
+   font-family: 'Kanit', sans-serif;
+   font-size: 1.1rem;
+   font-weight: 100;
+   text-align: center;
 }
 
 .quoteAuthor {
    color: white;
+   font-family: 'Kanit', sans-serif;
+   text-align: right;
 }

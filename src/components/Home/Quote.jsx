@@ -33,8 +33,11 @@ export default function Quote(){
       <>
          <h3 className={style.quoteOfDay}>Quote of the day</h3>
          <p className={style.quoteContent}>{quote}</p>
-         <p className={style.quoteAuthor}>- {author}</p>
-         <Button onClick={quoteAPI} className={style.home_button}>Another quote</Button>
+         <p className={style.quoteAuthor}>~ <i>{author}</i></p>
+
+         <div className="d-flex justify-content-center">
+            <Button onClick={quoteAPI} className={style.home_button}>Oop... I dont like this quote</Button>
+         </div>
       </>
    )
 }

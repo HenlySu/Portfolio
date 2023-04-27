@@ -30,9 +30,7 @@ export default function Home(){
                   />
                </Col>
             </Row>
-
             <Quote />
-
          </Container>
       </>
    )

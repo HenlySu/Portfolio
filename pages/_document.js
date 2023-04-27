@@ -7,6 +7,7 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
         <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Sigmar&display=swap" rel="stylesheet"></link>
       </Head>
       <body>
         <Main />
