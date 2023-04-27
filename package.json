@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@next/font": "13.3.0",
-    "@react-pdf/renderer": "^3.1.9",
     "bootstrap": "^5.2.3",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
@@ -20,6 +19,7 @@
     "react-bootstrap": "^2.7.2",
     "react-dom": "18.2.0",
     "react-github-calendar": "^4.0.0",
-    "react-icons": "^4.8.0"
+    "react-icons": "^4.8.0",
+    "react-pdf": "^6.2.2"
   }
 }
