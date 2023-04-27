@@ -28,8 +28,7 @@ export default function Home(){
                      height={500}
                   />
                </Col>
-            </Row>
-            
+            </Row>       
          </Container>
       </>
    )
