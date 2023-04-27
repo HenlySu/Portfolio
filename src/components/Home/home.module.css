@@ -1,3 +1,8 @@
+.image{
+   display: block;
+   margin: auto;
+}
+
 .hello_world {
    font-family: 'Sigmar', cursive;
    color: white;
@@ -17,10 +22,9 @@
 .home_button{
    background-color: #560090;
    border: none;
-
+   margin-right: 1.5rem;
+   margin-top: 1rem;
 }
-
-
 
 .aspiration {
    color: white;
@@ -34,5 +38,19 @@
    color: #9900FF;
    font-family: 'Sigmar', cursive;
    font-size: 1.25rem;
-   margin-top: 3rem;
+   margin-top: 2rem;
+}
+
+/* Quote Section */
+.quoteOfDay{
+   color: white;
+   font-family: 'Sigmar', cursive;
+}
+
+.quoteContent{
+   color: white;
+}
+
+.quoteAuthor {
+   color: white;
 }

@@ -2,6 +2,7 @@ import { Button, Container, Col, Row } from "react-bootstrap";
 import Image from "next/image";
 import style from "./home.module.css"
 import Aspirations from "./Aspirations";
+import Quote from "./Quote";
 
 export default function Home(){
    return (
@@ -23,12 +24,15 @@ export default function Home(){
                   <Image 
                      src='/img/homeImg.svg'
                      alt='Home Image'
-                     className="img-fluid"
+                     className={`img-fluid ${style.image}`}
                      width={500}
                      height={500}
                   />
                </Col>
-            </Row>       
+            </Row>
+
+            <Quote />
+
          </Container>
       </>
    )
