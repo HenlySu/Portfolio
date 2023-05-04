@@ -45,70 +45,70 @@ export default function Skill(){
                <p className={style.iconDes}>Bootstrap</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <DiReact className={style.icon}/>
                <p className={style.iconDes}>React JS</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <TbBrandNextjs className={style.icon}/>
                <p className={style.iconDes}>Next JS</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <DiJqueryLogo className={style.icon}/>
                <p className={style.iconDes}>JQuery</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <TbSql className={style.icon}/>
                <p className={style.iconDes}>Oracle SQL</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <SiMongodb className={style.icon}/>
                <p className={style.iconDes}>MongoDB</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <BsGit className={style.icon}/>
                <p className={style.iconDes}>Git</p>
             </Col>
 
             <h5 className="mt-4">Tools</h5>
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <SiVisualstudio className={style.icon}/>
                <p className={style.iconDes}>Visual Studio</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <SiVisualstudiocode className={style.icon}/>
                <p className={style.iconDes}>Visual Studio Code</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <BsGithub className={style.icon}/>
                <p className={style.iconDes}>GitHub</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <SiVercel className={style.icon}/>
                <p className={style.iconDes}>Vercel</p>
             </Col>
 
             <h5 className="mt-4">Operating systems</h5>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <DiWindows className={style.icon}/>
                <p className={style.iconDes}>Windows</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <SiMacos className={style.icon}/>
                <p className={style.iconDes}>MacOS</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <DiLinux className={style.icon}/>
                <p className={style.iconDes}>Linux</p>
             </Col>
