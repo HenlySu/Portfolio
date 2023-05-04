@@ -10,7 +10,7 @@ export default function Aspirations(){
                options={{
                   strings: [
                      "Full Stack Developer",
-                     "Mobile App Developer",
+                     "Software Developer",
                      "Cloud Engineer"
                   ],
                   autoStart: true,

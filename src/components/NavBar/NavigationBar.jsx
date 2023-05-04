@@ -6,7 +6,7 @@ export default function NavigationBar(){
       <>
          <Navbar expand='lg' className={style.navBar}>
             <Container>
-               <Navbar.Brand href='/' className={style.brand}>Henly Su</Navbar.Brand>
+               <Navbar.Brand href='/' className={style.brand}>{'<'}Henly Su{' />'}</Navbar.Brand>
 
                <Navbar.Toggle aria-controls='basic-navbar-nav' className={style.toggle}/>
                <Navbar.Collapse id='basic-navbar-nav' className='justify-content-end'>

@@ -1,13 +1,18 @@
 .navBar{
-   background-color: #560090;
+   background-color: transparent;
+   opacity: 0.75;
 }
 
-.brand {
+.brand, 
+.link,
+.brand:hover,
+.link:hover {
    color: white;
 }
 
-.link{
-   color: white;
+.link:hover{
+   background-color:#9900FF;
+   
 }
 
 .toggle{
