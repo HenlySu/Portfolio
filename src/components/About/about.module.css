@@ -1,0 +1,14 @@
+.about {
+   color: white;
+   text-align: center;
+}
+
+.paragraph{
+   color: white;
+   text-align: center;
+}
+
+.image{
+   display: block;
+   margin: auto;
+}
