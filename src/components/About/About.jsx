@@ -18,7 +18,7 @@ export default function About(){
                </Col>
 
                <Col lg={6}>
-                  <h3 className={style.about}>About me</h3>
+                  <h3 className={`text-center ${style.about}`}>About me</h3>
                   <br />
                   <p className={style.paragraph}>
                      Hi, my name is Henly Su and I&#39;m an international student 

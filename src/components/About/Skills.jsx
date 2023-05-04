@@ -1,4 +1,5 @@
 import { Col, Row } from "react-bootstrap"
+import style from "./about.module.css"
 
 import { CgCPlusPlus } from "react-icons/cg"
 import { IoLogoJavascript } from "react-icons/io"
@@ -10,108 +11,106 @@ import { BsGit, BsGithub } from "react-icons/bs"
 export default function Skill(){
    return (
       <>
-         <h3 className='mt-4'>My arsenal</h3>
-         <p>The skills, tools and technologies I use to bring applications to life</p>
-
-         {/* Missing express, C */}
-
-         <h5>Skills</h5>
+         <h3 className={`mt-4 ${style.arsenal}`}>My arsenal</h3>
+         <p className={style.arsenalDes}>The skills, tools and technologies I use to bring applications to life</p>
+         
          <Row>
-            <Col xs={4} md={2} className="icons">
-               <IoLogoJavascript />
-               <p>Javascript</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <IoLogoJavascript className={style.icon}/>
+               <p className={style.iconDes}>Javascript</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <CgCPlusPlus />
-               <p>C Plus Plus</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <CgCPlusPlus className={style.icon}/>
+               <p className={style.iconDes}>C Plus Plus</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <DiPython />
-               <p>Python</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <DiPython className={style.icon}/>
+               <p className={style.iconDes}>Python</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <DiHtml5 />
-               <p>HTML5</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <DiHtml5 className={style.icon}/>
+               <p className={style.iconDes}>HTML5</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <DiCss3 />
-               <p>CSS3</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <DiCss3 className={style.icon}/>
+               <p className={style.iconDes}>CSS3</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <DiBootstrap/>
-               <p>Bootstrap</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <DiBootstrap className={style.icon}/>
+               <p className={style.iconDes}>Bootstrap</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <DiReact />
-               <p>React JS</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <DiReact className={style.icon}/>
+               <p className={style.iconDes}>React JS</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <TbBrandNextjs />
-               <p>Next JS</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <TbBrandNextjs className={style.icon}/>
+               <p className={style.iconDes}>Next JS</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <DiJqueryLogo />
-               <p>JQuery</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <DiJqueryLogo className={style.icon}/>
+               <p className={style.iconDes}>JQuery</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <TbSql />
-               <p>Oracle SQL</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <TbSql className={style.icon}/>
+               <p className={style.iconDes}>Oracle SQL</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <SiMongodb />
-               <p>MongoDB</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <SiMongodb className={style.icon}/>
+               <p className={style.iconDes}>MongoDB</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <BsGit />
-               <p>Git</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <BsGit className={style.icon}/>
+               <p className={style.iconDes}>Git</p>
             </Col>
 
             <h5 className="mt-4">Tools</h5>
-            <Col xs={4} md={2} className="icons">
-               <SiVisualstudio />
-               <p>Visual Studio</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <SiVisualstudio className={style.icon}/>
+               <p className={style.iconDes}>Visual Studio</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <SiVisualstudiocode />
-               <p>Visual Studio Code</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <SiVisualstudiocode className={style.icon}/>
+               <p className={style.iconDes}>Visual Studio Code</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <BsGithub />
-               <p>GitHub</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <BsGithub className={style.icon}/>
+               <p className={style.iconDes}>GitHub</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <SiVercel />
-               <p>Vercel</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <SiVercel className={style.icon}/>
+               <p className={style.iconDes}>Vercel</p>
             </Col>
 
             <h5 className="mt-4">Operating systems</h5>
-            <Col xs={4} md={2} className="icons">
-               <DiWindows />
-               <p>Windows</p>
+
+            <Col sm={3} lg={2} className={style.icons}>
+               <DiWindows className={style.icon}/>
+               <p className={style.iconDes}>Windows</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <SiMacos />
-               <p>MacOS</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <SiMacos className={style.icon}/>
+               <p className={style.iconDes}>MacOS</p>
             </Col>
 
-            <Col xs={4} md={2} className="icons">
-               <DiLinux />
-               <p>Linux</p>
+            <Col sm={3} lg={2} className={style.icons}>
+               <DiLinux className={style.icon}/>
+               <p className={style.iconDes}>Linux</p>
             </Col>
          </Row>
       </>

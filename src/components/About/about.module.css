@@ -1,14 +1,40 @@
-.about {
+/* First Section */
+.about, .arsenal {
+   font-family: 'Sigmar', cursive;
    color: white;
-   text-align: center;
+   font-size: 2rem;
 }
 
 .paragraph{
+   font-family: 'Kanit', sans-serif;
    color: white;
-   text-align: center;
 }
 
 .image{
    display: block;
    margin: auto;
+}
+
+/* Second Section */
+.arsenalDes {
+   font-family: 'Kanit', sans-serif;
+   color: white;
+}
+
+.icon {
+   color: white;
+   font-size: 4rem;
+   margin-top: 10px;
+}
+
+.icons {
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 1rem;
+   text-align: center;
+}
+
+.iconDes {
+   font-family: 'Kanit', sans-serif;
+   color: white;
 }
