@@ -15,32 +15,32 @@ export default function Skill(){
          <p className={style.arsenalDes}>The skills, tools and technologies I use to bring applications to life</p>
          
          <Row>
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <IoLogoJavascript className={style.icon}/>
                <p className={style.iconDes}>Javascript</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <CgCPlusPlus className={style.icon}/>
                <p className={style.iconDes}>C Plus Plus</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <DiPython className={style.icon}/>
                <p className={style.iconDes}>Python</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <DiHtml5 className={style.icon}/>
                <p className={style.iconDes}>HTML5</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <DiCss3 className={style.icon}/>
                <p className={style.iconDes}>CSS3</p>
             </Col>
 
-            <Col sm={3} lg={2} className={style.icons}>
+            <Col xs={6} sm={3} lg={2} className={style.icons}>
                <DiBootstrap className={style.icon}/>
                <p className={style.iconDes}>Bootstrap</p>
             </Col>
