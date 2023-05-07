@@ -30,11 +30,15 @@
 .icons {
    border: 3px solid white;
    border-radius: 10px;
-
    text-align: center;
 }
 
 .iconDes {
    font-family: 'Kanit', sans-serif;
+   color: white;
+}
+
+.heading {
+   font-family: 'Sigmar', cursive;
    color: white;
 }

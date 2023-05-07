@@ -11,6 +11,7 @@ export default function About(){
                   <Image
                      src='/img/about.png'
                      alt='about image'
+                     priority={true}
                      className={`img-fluid ${style.image}`}
                      height={500}
                      width={500}

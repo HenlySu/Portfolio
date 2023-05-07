@@ -75,7 +75,8 @@ export default function Skill(){
                <p className={style.iconDes}>Git</p>
             </Col>
 
-            <h5 className="mt-4">Tools</h5>
+            <h4 className={`mt-4 ${style.heading}`}>Tools</h4>
+
             <Col xs={6} sm={3} lg={2} className={style.icons}>
                <SiVisualstudio className={style.icon}/>
                <p className={style.iconDes}>Visual Studio</p>
@@ -96,7 +97,7 @@ export default function Skill(){
                <p className={style.iconDes}>Vercel</p>
             </Col>
 
-            <h5 className="mt-4">Operating systems</h5>
+            <h4 className={`mt-4 ${style.heading}`}>Operating systems</h4>
 
             <Col xs={6} sm={3} lg={2} className={style.icons}>
                <DiWindows className={style.icon}/>
