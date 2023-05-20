@@ -15,101 +15,101 @@ export default function Skill(){
          <p className={style.arsenalDes}>The skills, tools and technologies I use to bring applications to life</p>
          
          <Row>
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <IoLogoJavascript className={style.icon}/>
                <p className={style.iconDes}>Javascript</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <CgCPlusPlus className={style.icon}/>
                <p className={style.iconDes}>C Plus Plus</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <DiPython className={style.icon}/>
                <p className={style.iconDes}>Python</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <DiHtml5 className={style.icon}/>
                <p className={style.iconDes}>HTML5</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <DiCss3 className={style.icon}/>
                <p className={style.iconDes}>CSS3</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <DiBootstrap className={style.icon}/>
                <p className={style.iconDes}>Bootstrap</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <DiReact className={style.icon}/>
                <p className={style.iconDes}>React JS</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <TbBrandNextjs className={style.icon}/>
                <p className={style.iconDes}>Next JS</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <DiJqueryLogo className={style.icon}/>
                <p className={style.iconDes}>JQuery</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <TbSql className={style.icon}/>
                <p className={style.iconDes}>Oracle SQL</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <SiMongodb className={style.icon}/>
                <p className={style.iconDes}>MongoDB</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <BsGit className={style.icon}/>
                <p className={style.iconDes}>Git</p>
             </Col>
 
             <h4 className={`mt-4 ${style.heading}`}>Tools</h4>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <SiVisualstudio className={style.icon}/>
                <p className={style.iconDes}>Visual Studio</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <SiVisualstudiocode className={style.icon}/>
                <p className={style.iconDes}>Visual Studio Code</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <BsGithub className={style.icon}/>
                <p className={style.iconDes}>GitHub</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <SiVercel className={style.icon}/>
                <p className={style.iconDes}>Vercel</p>
             </Col>
 
             <h4 className={`mt-4 ${style.heading}`}>Operating systems</h4>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <DiWindows className={style.icon}/>
                <p className={style.iconDes}>Windows</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <SiMacos className={style.icon}/>
                <p className={style.iconDes}>MacOS</p>
             </Col>
 
-            <Col xs={6} sm={3} lg={2} className={style.icons}>
+            <Col xs={3} sm={3} lg={2} className={style.icons}>
                <DiLinux className={style.icon}/>
                <p className={style.iconDes}>Linux</p>
             </Col>
